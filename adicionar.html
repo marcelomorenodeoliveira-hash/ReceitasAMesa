@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Receita - Receitas à Mesa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🍴 Receitas à Mesa</div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="receitas.html">Receitas</a>
+        <a href="favoritos.html">Favoritos</a>
+        <a href="adicionar.html" class="ativo">Adicionar Receita</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="pagina-topo">
+        <span class="pequeno-titulo">NOVA RECEITA</span>
+        <h1>Adicionar receita</h1>
+        <p>Partilha uma receita com a tua coleção.</p>
+    </section>
+
+    <section class="formulario-container">
+
+        <form id="formReceita">
+
+            <div class="campo">
+                <label for="nome">Nome da receita *</label>
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Ex.: Lasanha de carne"
+                    required
+                >
+            </div>
+
+            <div class="linha">
+
+                <div class="campo">
+                    <label for="categoria">Categoria *</label>
+
+                    <select id="categoria" required>
+                        <option value="">Selecionar categoria</option>
+                        <option value="Massas">Massas</option>
+                        <option value="Carnes">Carnes</option>
+                        <option value="Peixes">Peixes</option>
+                        <option value="Sobremesas">Sobremesas</option>
+                        <option value="Saladas">Saladas</option>
+                        <option value="Vegetarianas">Vegetarianas</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="tempo">Tempo de preparação *</label>
+
+                    <input
+                        type="number"
+                        id="tempo"
+                        min="1"
+                        placeholder="Ex.: 45"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="pessoas">N.º de pessoas *</label>
+
+                    <input
+                        type="number"
+                        id="pessoas"
+                        min="1"
+                        placeholder="Ex.: 4"
+                        required
+                    >
+                </div>
+
+            </div>
+
+            <div class="campo">
+                <label for="imagem">Emoji da receita</label>
+
+                <input
+                    type="text"
+                    id="imagem"
+                    maxlength="4"
+                    placeholder="🍝"
+                >
+            </div>
+
+            <div class="campo">
+                <label for="ingredientes">
+                    Ingredientes *
+                </label>
+
+                <textarea
+                    id="ingredientes"
+                    rows="7"
+                    placeholder="Escreve um ingrediente por linha..."
+                    required
+                ></textarea>
+            </div>
+
+            <div class="campo">
+                <label for="preparacao">
+                    Modo de preparação *
+                </label>
+
+                <textarea
+                    id="preparacao"
+                    rows="9"
+                    placeholder="Explica passo a passo como preparar a receita..."
+                    required
+                ></textarea>
+            </div>
+
+            <div class="botoes-formulario">
+                <a href="receitas.html" class="botao-secundario">
+                    Cancelar
+                </a>
+
+                <button type="submit" class="botao">
+                    Guardar receita
+                </button>
+            </div>
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer-conteudo">
+        <div class="footer-coluna">
+            <div class="footer-logo">🍴 Receitas à Mesa</div>
+            <p>Receitas simples e deliciosas para o dia-a-dia.</p>
+        </div>
+        <div class="footer-coluna">
+            <h4>Navegação</h4>
+            <a href="index.html">Início</a>
+            <a href="receitas.html">Receitas</a>
+            <a href="favoritos.html">Favoritos</a>
+            <a href="adicionar.html">Adicionar Receita</a>
+        </div>
+        <div class="footer-coluna">
+            <h4>Categorias</h4>
+            <a href="receitas.html">Massas</a>
+            <a href="receitas.html">Carnes</a>
+            <a href="receitas.html">Peixes</a>
+            <a href="receitas.html">Sobremesas</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 Receitas à Mesa. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

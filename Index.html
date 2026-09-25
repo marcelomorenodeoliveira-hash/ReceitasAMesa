@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas à Mesa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🍴 Receitas à Mesa</div>
+
+    <nav>
+        <a href="index.html" class="ativo">Início</a>
+        <a href="receitas.html">Receitas</a>
+        <a href="favoritos.html">Favoritos</a>
+        <a href="adicionar.html">Adicionar Receita</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <div class="hero-texto">
+            <h1>Receitas deliciosas,<br>todos os dias.</h1>
+
+            <p>
+                Descobre receitas simples, deliciosas e fáceis de preparar.
+                Encontra inspiração para a tua próxima refeição.
+            </p>
+
+            <a href="receitas.html" class="botao">
+                Ver receitas
+            </a>
+        </div>
+
+        <div class="hero-imagem">
+            🍝
+        </div>
+    </section>
+
+    <section class="categorias-home">
+
+        <div class="titulo-secao">
+            <div>
+                <span class="pequeno-titulo">EXPLORA</span>
+                <h2>Escolhe uma categoria</h2>
+            </div>
+        </div>
+
+        <div class="categorias-home-grid">
+
+            <a href="receitas.html" class="categoria-card">
+                <div class="categoria-icon">🍝</div>
+                <h3>Massas</h3>
+                <p>Pratos deliciosos e fáceis</p>
+            </a>
+
+            <a href="receitas.html" class="categoria-card">
+                <div class="categoria-icon">🍗</div>
+                <h3>Carnes</h3>
+                <p>Receitas saborosas</p>
+            </a>
+
+            <a href="receitas.html" class="categoria-card">
+                <div class="categoria-icon">🐟</div>
+                <h3>Peixes</h3>
+                <p>Sabores do mar</p>
+            </a>
+
+            <a href="receitas.html" class="categoria-card">
+                <div class="categoria-icon">🍰</div>
+                <h3>Sobremesas</h3>
+                <p>Para adoçar o dia</p>
+            </a>
+
+            <a href="receitas.html" class="categoria-card">
+                <div class="categoria-icon">🥗</div>
+                <h3>Saladas</h3>
+                <p>Opções frescas</p>
+            </a>
+
+            <a href="receitas.html" class="categoria-card">
+                <div class="categoria-icon">🥕</div>
+                <h3>Vegetarianas</h3>
+                <p>Receitas sem carne</p>
+            </a>
+
+        </div>
+    </section>
+
+    <section class="receita-dia">
+        <div class="receita-dia-imagem">
+            🍳
+        </div>
+        <div class="receita-dia-conteudo">
+            <span class="pequeno-titulo">RECEITA DO DIA</span>
+            <h2 id="receitaDiaNome">Lasanha de Carne</h2>
+            <p id="receitaDiaDescricao">Uma lasanha clássica com camadas de massa, carne picada temperada e queijo derretido. Perfeita para reunir a família à mesa.</p>
+            <div class="receita-dia-info">
+                <span id="receitaDiaTempo">⏱ 60 min</span>
+                <span id="receitaDiaPessoas">👥 4 pessoas</span>
+                <span id="receitaDiaCategoria">🍝 Massas</span>
+            </div>
+            <a id="receitaDiaLink" href="receita.html?id=1" class="botao">Ver receita completa</a>
+        </div>
+    </section>
+
+    <section class="secao">
+        <div class="titulo-secao">
+            <h2>Receitas em destaque</h2>
+            <a href="receitas.html">Ver todas →</a>
+        </div>
+
+        <div id="receitasDestaque" class="grid-receitas"></div>
+    </section>
+
+    <section class="como-funciona">
+        <div class="titulo-secao">
+            <div>
+                <span class="pequeno-titulo">COMO FUNCIONA</span>
+                <h2>Cozinhar nunca foi tão fácil</h2>
+            </div>
+        </div>
+
+        <div class="como-funciona-grid">
+
+            <div class="passo-card">
+                <div class="passo-numero">1</div>
+                <div class="passo-icono">🔍</div>
+                <h3>Explora</h3>
+                <p>Pesquisa por categorias ou usa a barra de pesquisa para encontrar a receita perfeita.</p>
+            </div>
+
+            <div class="passo-card">
+                <div class="passo-numero">2</div>
+                <div class="passo-icono">📖</div>
+                <h3>Descobre</h3>
+                <p>Consulta os ingredientes e o passo a passo de cada receita com detalhe.</p>
+            </div>
+
+            <div class="passo-card">
+                <div class="passo-numero">3</div>
+                <div class="passo-icono">👨‍🍳</div>
+                <h3>Cozinha</h3>
+                <p>Segue as instruções e surpreende todos com pratos deliciosos caseiros.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="estatisticas">
+        <div class="estatistica">
+            <span>🍴</span>
+            <strong>50+</strong>
+            <p>Receitas</p>
+        </div>
+        <div class="estatistica">
+            <span>❤️</span>
+            <strong>20+</strong>
+            <p>Favoritos</p>
+        </div>
+        <div class="estatistica">
+            <span>👨‍🍳</span>
+            <strong>100%</strong>
+            <p>Fáceis de preparar</p>
+        </div>
+        <div class="estatistica">
+            <span>⭐</span>
+            <strong>4.9</strong>
+            <p>Avaliação média</p>
+        </div>
+    </section>
+
+    <section class="dicas-culinarias">
+        <div class="titulo-secao">
+            <div>
+                <span class="pequeno-titulo">DICAS DE COZINHA</span>
+                <h2>Truques para ficar no ponto.</h2>
+            </div>
+        </div>
+
+        <div class="dicas-grid">
+
+            <div class="dica-card">
+                <div class="dica-icon">🧂</div>
+                <h3>Tempero é tudo</h3>
+                <p>Não tenhas medo de experimentar. O sal e a pimenta são a base de qualquer bom prato.</p>
+            </div>
+
+            <div class="dica-card">
+                <div class="dica-icon">🔥</div>
+                <h3>Fogo controlado</h3>
+                <p>Aprender a dominar o fogo é essencial. Nem sempre o fogo alto é a melhor opção.</p>
+            </div>
+
+            <div class="dica-card">
+                <div class="dica-icon">🔪</div>
+                <h3>Mise en place</h3>
+                <p>Prepara todos os ingredientes antes de começar a cozinhar. Organização é eficiência.</p>
+            </div>
+
+            <div class="dica-card">
+                <div class="dica-icon">🌿</div>
+                <h3>Ervas frescas</h3>
+                <p>Ervas frescas transformam qualquer prato. Uma pitada de salsa ou manjericão faz toda a diferença.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="sobre">
+        <div>
+            <span class="pequeno-titulo">SOBRE A APLICAÇÃO</span>
+            <h2>A tua cozinha,<br>num só lugar.</h2>
+        </div>
+
+        <div class="sobre-conteudo">
+            <p>
+                O Receitas à Mesa permite pesquisar, consultar, adicionar
+                e guardar as tuas receitas favoritas de forma simples e rápida.
+            </p>
+            <ul class="sobre-lista">
+                <li>✦ Pesquisa por nome e categoria</li>
+                <li>✦ Guarda as tuas receitas favoritas</li>
+                <li>✦ Adiciona as tuas próprias receitas</li>
+                <li>✦ Acessa de qualquer dispositivo</li>
+            </ul>
+            <a href="receitas.html" class="botao">Começa agora</a>
+        </div>
+    </section>
+
+    <section class="cta-final">
+        <div class="cta-conteudo">
+            <h2>Pronto para cozinhar?</h2>
+            <p>Descobre dezenas de receitas deliciosas e começa a tua aventura gastronómica hoje mesmo.</p>
+            <div class="cta-botoes">
+                <a href="receitas.html" class="botao">Ver receitas</a>
+                <a href="adicionar.html" class="botao-secundario">Adicionar receita</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer-conteudo">
+        <div class="footer-coluna">
+            <div class="footer-logo">🍴 Receitas à Mesa</div>
+            <p>Receitas simples e deliciosas para o dia-a-dia.</p>
+        </div>
+        <div class="footer-coluna">
+            <h4>Navegação</h4>
+            <a href="index.html">Início</a>
+            <a href="receitas.html">Receitas</a>
+            <a href="favoritos.html">Favoritos</a>
+            <a href="adicionar.html">Adicionar Receita</a>
+        </div>
+        <div class="footer-coluna">
+            <h4>Categorias</h4>
+            <a href="receitas.html">Massas</a>
+            <a href="receitas.html">Carnes</a>
+            <a href="receitas.html">Peixes</a>
+            <a href="receitas.html">Sobremesas</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 Receitas à Mesa. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
