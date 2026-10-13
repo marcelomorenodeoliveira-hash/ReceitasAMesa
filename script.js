@@ -161,6 +161,208 @@ const receitasIniciais = [
             "Adicionar o leite de coco.",
             "Deixar cozinhar durante aproximadamente 20 minutos."
         ]
+    },
+
+    {
+        id: 7,
+        nome: "Bolo de Cenoura",
+        categoria: ["Sobremesas", "Vegetarianas"],
+        tempo: 60,
+        pessoas: 10,
+        imagem: "🥕",
+        ingredientes: [
+            "MASSA:",
+            "3 ovos (150g)",
+            "3/4 de xícara (chá) de óleo (150ml)",
+            "1 e 1/2 xícara (chá) de cenoura picadinha (200g)",
+            "1 e 1/2 xícara (chá) de açúcar (275g)",
+            "1 e 1/2 xícara (chá) de farinha de trigo (205g)",
+            "1 colher (sopa) de fermento em pó (14g)",
+            "COBERTURA:",
+            "200g de chocolate meio amargo",
+            "1/2 xícara (chá) de leite condensado (140g)",
+            "1/2 xícara (chá) de creme de leite (110g)"
+        ],
+        preparacao: [
+            "Bata no liquidificador os ovos, o óleo e a cenoura por 3 a 5 minutos até obter um creme liso e bem alaranjado.",
+            "Junte o açúcar e bata por mais 1 a 2 minutos para homogeneizar.",
+            "Peneire a farinha e misture delicadamente de baixo para cima com um fouet ou espátula.",
+            "Adicione o fermento em pó e misture levemente apenas até incorporar.",
+            "Asse em forno preaquecido a 180°C até passar no teste do palito.",
+            "Derreta o chocolate em banho-maria ou no micro-ondas, mexendo de 30 em 30 segundos.",
+            "Adicione o leite condensado e o creme de leite ao chocolate ainda morno e misture até ficar liso e brilhante.",
+            "Cubra o bolo com a cobertura generosamente."
+        ]
+    },
+
+    {
+        id: 8,
+        nome: "Manta de Linguiça Recheada",
+        categoria: "Carnes",
+        tempo: 45,
+        pessoas: 6,
+        imagem: "🌭",
+        ingredientes: [
+            "1,2kg de linguiça de pernil",
+            "200g de mussarela fatiada",
+            "4 colheres de sopa de orégano",
+            "2 colheres de sopa de cebola, alho e salsa desidratados",
+            "1 colher de pimenta calabresa",
+            "1 colher de café de louro em pó",
+            "1 colher de café de pimenta-do-reino",
+            "40ml de água morna",
+            "50ml de vinagre de vinho tinto",
+            "100ml de azeite",
+            "1 colher de sopa de salsinha fresca picada",
+            "1 pitada de sal"
+        ],
+        preparacao: [
+            "Prepare o chimichurri: misture os secos com a água morna, o vinagre, o azeite, a salsinha fresca e o sal.",
+            "Retire a massa da linguiça ainda gelada — assim fica mais fácil de moldar.",
+            "Passe um pouco de óleo nas mãos e molde metade da massa em formato de retângulo sobre papel-filme.",
+            "Coloque as fatias de queijo no centro, deixando espaço nas bordas para não vazar.",
+            "Cubra com a outra metade da massa e feche bem.",
+            "Coloque em uma grelha de peixe e retire o papel-filme.",
+            "Asse em calor médio por 15 minutos de cada lado ou até o ponto preferido.",
+            "Corte ainda quente e finalize com o chimichurri."
+        ]
+    },
+
+    {
+        id: 9,
+        nome: "Fraldinha com Maionese de Bacon",
+        categoria: "Carnes",
+        tempo: 45,
+        pessoas: 4,
+        imagem: "🥓",
+        ingredientes: [
+            "1 peça de fraldinha",
+            "Pão francês para servir",
+            "200g de bacon picado",
+            "2 ovos",
+            "1/2 limão (suco)",
+            "350ml de óleo gelado",
+            "1 dente de alho",
+            "Azeite, sal e pimenta a gosto"
+        ],
+        preparacao: [
+            "Em fogo forte, frite o bacon até dourar bem. Reserve o bacon e o óleo que soltou.",
+            "Bata no mixer ou liquidificador os ovos, o alho, o suco de limão, o óleo do bacon, o sal e a pimenta.",
+            "Despeje o óleo gelado em fio, bem devagar, batendo até o creme ficar bem espesso, no ponto de maionese.",
+            "Junte o bacon frito e bata novamente até incorporar em pedacinhos pequenos.",
+            "Leve à geladeira para firmar.",
+            "Tempere a fraldinha com azeite, sal e pimenta.",
+            "Grelhe na churrasqueira em brasa forte dos dois lados, no ponto preferido.",
+            "Corte em pedaços contra a fibra, coloque no pão francês e sirva com a maionese de bacon."
+        ]
+    },
+
+    {
+        id: 10,
+        nome: "Filé de Peixe Assado no Forno",
+        categoria: "Peixes",
+        tempo: 40,
+        pessoas: 4,
+        imagem: "🐟",
+        ingredientes: [
+            "1 kg de filé de pescada",
+            "Sal a gosto",
+            "Suco de 1 limão",
+            "2 dentes de alho triturados",
+            "Pimenta-do-reino a gosto",
+            "2 colheres de café de páprica picante (ou colorau)",
+            "Azeite para untar"
+        ],
+        preparacao: [
+            "Limpe e seque os filés com papel-toalha.",
+            "Misture o limão, o alho, a páprica, o sal e a pimenta até formar uma pastinha líquida.",
+            "Tempere os filés dos dois lados.",
+            "Deixe marinar na geladeira por 15 a 20 minutos (o limão pode 'cozinhar' a carne se passar disso).",
+            "Opção 1: grelhe na frigideira por 3 a 4 minutos de cada lado em fogo médio-alto até dourar.",
+            "Opção 2: asse no forno a 200°C por 15 minutos coberto com papel-alumínio e mais 5 a 10 minutos até dourar."
+        ]
+    },
+
+    {
+        id: 11,
+        nome: "Macarrão Alho e Óleo",
+        categoria: ["Massas", "Vegetarianas"],
+        tempo: 20,
+        pessoas: 4,
+        imagem: "🍝",
+        ingredientes: [
+            "300g de espaguete",
+            "4 dentes de alho grandes fatiados em lâminas",
+            "3 colheres de sopa de azeite de oliva",
+            "Sal a gosto",
+            "Pimenta-do-reino a gosto",
+            "2 colheres de sopa de salsinha picada"
+        ],
+        preparacao: [
+            "Cozinhe o espaguete em bastante água com sal até ficar al dente. Reserve 1 xícara da água do cozimento.",
+            "Em uma frigideira em fogo médio-baixo, aqueça o azeite e frite o alho em lâminas até dourar levemente.",
+            "Cuidado para não queimar o alho, pois ele amarga.",
+            "Adicione um pouco da água do cozimento e misture para criar um molho cremoso.",
+            "Junte o macarrão e envolva bem no molho.",
+            "Ajuste o sal, finalize com a salsinha e a pimenta-do-reino e sirva."
+        ]
+    },
+
+    {
+        id: 12,
+        nome: "Pão de Queijo",
+        categoria: "Vegetarianas",
+        tempo: 40,
+        pessoas: 15,
+        imagem: "🧀",
+        ingredientes: [
+            "500g de polvilho azedo",
+            "250ml de leite",
+            "100ml de óleo",
+            "1 colher (chá) de sal",
+            "2 ovos",
+            "250g de queijo meia cura ralado (ou minas padrão/parmesão)"
+        ],
+        preparacao: [
+            "Coloque o leite, o óleo e o sal em uma panela e leve ao fogo até ferver.",
+            "Despeje o líquido quente sobre o polvilho em uma tigela grande e misture bem para escaldar.",
+            "Deixe amornar por alguns minutos.",
+            "Acrescente os ovos, um a um, misturando bem após cada adição.",
+            "Adicione o queijo ralado e misture até obter uma massa homogênea e levemente pegajosa.",
+            "Modele bolinhas com as mãos untadas e distribua em uma assadeira.",
+            "Asse no forno preaquecido a 180°C por 25 a 30 minutos, até crescerem e dourarem.",
+            "Sirva quentinho."
+        ]
+    },
+
+    {
+        id: 13,
+        nome: "Frango com Mel e Shoyu",
+        categoria: "Carnes",
+        tempo: 35,
+        pessoas: 4,
+        imagem: "🍯",
+        ingredientes: [
+            "500g de filé de frango cortado em cubos",
+            "3 colheres de sopa de shoyu (molho de soja)",
+            "2 colheres de sopa de mel",
+            "2 dentes de alho picados",
+            "1 colher de chá de gengibre ralado",
+            "1 colher de sopa de óleo de gergelim",
+            "1/2 xícara de água",
+            "1 colher de sopa de amido de milho",
+            "Sal e pimenta-do-reino a gosto",
+            "Sementes de gergelim e cebolinha para finalizar"
+        ],
+        preparacao: [
+            "Tempere o frango com sal e pimenta.",
+            "Em uma frigideira, aqueça o óleo de gergelim e doure o frango de todos os lados.",
+            "Junte o alho e o gengibre e mexa por 1 minuto.",
+            "Adicione o shoyu, o mel e a água e misture bem.",
+            "Dissolva o amido de milho em um pouco de água e adicione à frigideira, mexendo até o molho engrossar.",
+            "Cozinhe até o frango ficar bem envolvido no molho caramelizado.",
+            "Finalize com gergelim e cebolinha e sirva."
+        ]
     }
 
 ];
@@ -175,17 +377,67 @@ function obterReceitas() {
     const receitasGuardadas =
         localStorage.getItem("receitas");
 
+    let receitas;
+
     if (!receitasGuardadas) {
+
+        receitas =
+            JSON.parse(JSON.stringify(receitasIniciais));
 
         localStorage.setItem(
             "receitas",
-            JSON.stringify(receitasIniciais)
+            JSON.stringify(receitas)
         );
 
-        return receitasIniciais;
+        return receitas;
     }
 
-    return JSON.parse(receitasGuardadas);
+    receitas = JSON.parse(receitasGuardadas);
+
+
+    // ADICIONAR NOVAS RECEITAS INICIAIS SEM REMOVER AS EXISTENTES
+
+    let adicionadas = false;
+
+    receitasIniciais.forEach(inicial => {
+
+        if (!receitas.some(item => item.id === inicial.id)) {
+
+            receitas.push(
+                JSON.parse(JSON.stringify(inicial))
+            );
+
+            adicionadas = true;
+        }
+    });
+
+    if (adicionadas) {
+
+        localStorage.setItem(
+            "receitas",
+            JSON.stringify(receitas)
+        );
+    }
+
+    return receitas;
+}
+
+
+// ========================================
+// CATEGORIAS
+// ========================================
+
+function obterCategorias(receita) {
+
+    return Array.isArray(receita.categoria)
+        ? receita.categoria
+        : [receita.categoria];
+}
+
+
+function ehDaCategoria(receita, categoria) {
+
+    return obterCategorias(receita).includes(categoria);
 }
 
 
@@ -256,6 +508,49 @@ function alterarFavorito(id) {
     carregarDestaques();
 
     carregarFavoritos();
+
+    carregarDetalhes();
+}
+
+
+// ========================================
+// APAGAR RECEITA
+// ========================================
+
+function apagarReceita(id) {
+
+    id = Number(id);
+
+    const receita =
+        obterReceitas().find(item => item.id === id);
+
+    if (!receita) {
+        return;
+    }
+
+    const confirmar = confirm(
+        'Tens a certeza que queres apagar "' +
+        receita.nome +
+        '"? Esta ação não pode ser desfeita.'
+    );
+
+    if (!confirmar) {
+        return;
+    }
+
+    const receitas =
+        obterReceitas().filter(item => item.id !== id);
+
+    guardarReceitas(receitas);
+
+    const favoritos =
+        obterFavoritos().filter(favorito => favorito !== id);
+
+    guardarFavoritos(favoritos);
+
+    alert("Receita apagada com sucesso.");
+
+    window.location.href = "receitas.html";
 }
 
 
@@ -285,7 +580,7 @@ function criarCard(receita) {
             <div class="card-conteudo">
 
                 <span class="card-categoria">
-                    ${receita.categoria}
+                    ${obterCategorias(receita).join(" · ")}
                 </span>
 
                 <h3>
@@ -348,7 +643,7 @@ function carregarReceitas() {
 
         const correspondeCategoria =
             categoriaAtual === "Todas" ||
-            receita.categoria === categoriaAtual;
+            ehDaCategoria(receita, categoriaAtual);
 
         return correspondeNome && correspondeCategoria;
 
@@ -504,7 +799,8 @@ function carregarReceitaDoDia() {
 
     document.getElementById("receitaDiaCategoria")
         .textContent =
-            receita.imagem + " " + receita.categoria;
+            receita.imagem + " " +
+            obterCategorias(receita).join(" · ");
 
     document.getElementById("receitaDiaLink")
         .href =
@@ -592,7 +888,7 @@ function carregarDetalhes() {
             <div class="receita-conteudo">
 
                 <span class="pequeno-titulo">
-                    ${receita.categoria}
+                    ${obterCategorias(receita).join(" · ")}
                 </span>
 
                 <h1>${receita.nome}</h1>
@@ -633,22 +929,40 @@ function carregarDetalhes() {
 
                 <br>
 
-                <button
-                    class="botao"
-                    onclick="alterarFavorito(${receita.id})"
-                >
-                    ${favorito
-                        ? "❤️ Remover dos favoritos"
-                        : "♡ Adicionar aos favoritos"
-                    }
-                </button>
+                <div class="acoes-receita">
 
-                <a
-                    href="receitas.html"
-                    class="botao-secundario"
-                >
-                    Voltar
-                </a>
+                    <button
+                        class="botao"
+                        onclick="alterarFavorito(${receita.id})"
+                    >
+                        ${favorito
+                            ? "❤️ Remover dos favoritos"
+                            : "♡ Adicionar aos favoritos"
+                        }
+                    </button>
+
+                    <a
+                        href="adicionar.html?id=${receita.id}"
+                        class="botao-secundario"
+                    >
+                        ✏️ Editar
+                    </a>
+
+                    <button
+                        class="botao-perigo"
+                        onclick="apagarReceita(${receita.id})"
+                    >
+                        🗑️ Apagar
+                    </button>
+
+                    <a
+                        href="receitas.html"
+                        class="botao-secundario"
+                    >
+                        Voltar
+                    </a>
+
+                </div>
 
             </div>
 
@@ -716,6 +1030,115 @@ function configurarFormulario() {
         return;
     }
 
+
+    // SELEÇÃO DE CATEGORIAS
+
+    const caixasCategoria =
+        document.querySelectorAll(
+            "#categorias input[type='checkbox']"
+        );
+
+    function sincronizarCategorias() {
+
+        caixasCategoria.forEach(caixa => {
+
+            const etiqueta =
+                caixa.closest(".categoria-check");
+
+            if (etiqueta) {
+                etiqueta.classList.toggle(
+                    "marcada",
+                    caixa.checked
+                );
+            }
+        });
+    }
+
+    caixasCategoria.forEach(caixa => {
+
+        caixa.addEventListener(
+            "change",
+            sincronizarCategorias
+        );
+    });
+
+
+    // DETETAR MODO DE EDIÇÃO
+
+    const parametros =
+        new URLSearchParams(window.location.search);
+
+    const idEdicao =
+        parametros.get("id");
+
+    let receitaEmEdicao = null;
+
+    if (idEdicao) {
+
+        receitaEmEdicao =
+            obterReceitas().find(
+                receita => receita.id === Number(idEdicao)
+            );
+
+        if (receitaEmEdicao) {
+
+            document.getElementById("nome")
+                .value = receitaEmEdicao.nome;
+
+            const categoriasReceita =
+                obterCategorias(receitaEmEdicao);
+
+            caixasCategoria.forEach(caixa => {
+
+                caixa.checked =
+                    categoriasReceita.includes(
+                        caixa.value
+                    );
+            });
+
+            sincronizarCategorias();
+
+            document.getElementById("tempo")
+                .value = receitaEmEdicao.tempo;
+
+            document.getElementById("pessoas")
+                .value = receitaEmEdicao.pessoas;
+
+            document.getElementById("imagem")
+                .value = receitaEmEdicao.imagem;
+
+            document.getElementById("ingredientes")
+                .value =
+                    receitaEmEdicao.ingredientes.join("\n");
+
+            document.getElementById("preparacao")
+                .value =
+                    receitaEmEdicao.preparacao.join("\n");
+
+            const pequenoTitulo =
+                document.getElementById("formPequenoTitulo");
+
+            if (pequenoTitulo) {
+                pequenoTitulo.textContent = "EDITAR RECEITA";
+            }
+
+            const titulo =
+                document.getElementById("formTitulo");
+
+            if (titulo) {
+                titulo.textContent = "Editar receita";
+            }
+
+            const botaoGuardar =
+                document.getElementById("formBotaoGuardar");
+
+            if (botaoGuardar) {
+                botaoGuardar.textContent = "Guardar alterações";
+            }
+        }
+    }
+
+
     formulario.addEventListener(
         "submit",
         function(event) {
@@ -726,9 +1149,12 @@ function configurarFormulario() {
                 document.getElementById("nome")
                     .value.trim();
 
-            const categoria =
-                document.getElementById("categoria")
-                    .value;
+            const categorias =
+                Array.from(
+                    document.querySelectorAll(
+                        "#categorias input:checked"
+                    )
+                ).map(caixa => caixa.value);
 
             const tempo =
                 Number(
@@ -759,7 +1185,7 @@ function configurarFormulario() {
 
             if (
                 !nome ||
-                !categoria ||
+                categorias.length === 0 ||
                 tempo <= 0 ||
                 pessoas <= 0 ||
                 !ingredientesTexto ||
@@ -795,6 +1221,54 @@ function configurarFormulario() {
                 obterReceitas();
 
 
+            // MODO DE EDIÇÃO
+
+            if (receitaEmEdicao) {
+
+                const indice =
+                    receitas.findIndex(
+                        receita =>
+                            receita.id === receitaEmEdicao.id
+                    );
+
+                receitas[indice] = {
+
+                    ...receitas[indice],
+
+                    nome: nome,
+
+                    categoria: categorias,
+
+                    tempo: tempo,
+
+                    pessoas: pessoas,
+
+                    imagem:
+                        imagemInput ||
+                        receitas[indice].imagem ||
+                        "🍴",
+
+                    ingredientes:
+                        ingredientes,
+
+                    preparacao:
+                        preparacao
+                };
+
+                guardarReceitas(receitas);
+
+                alert(
+                    "Receita atualizada com sucesso! 🍴"
+                );
+
+                window.location.href =
+                    "receita.html?id=" +
+                    receitaEmEdicao.id;
+
+                return;
+            }
+
+
             // CRIAR ID
 
             const novoId =
@@ -815,7 +1289,7 @@ function configurarFormulario() {
 
                 nome: nome,
 
-                categoria: categoria,
+                categoria: categorias,
 
                 tempo: tempo,
 
@@ -857,6 +1331,74 @@ function configurarFormulario() {
 
 
 // ========================================
+// MODO ESCURO
+// ========================================
+
+function obterTema() {
+
+    return localStorage.getItem("tema") || "claro";
+}
+
+
+function aplicarTema(tema) {
+
+    const escuro =
+        tema === "escuro";
+
+    document.documentElement
+        .classList.toggle("escuro", escuro);
+
+    const botao =
+        document.getElementById("botaoTema");
+
+    if (botao) {
+
+        botao.textContent = escuro ? "☀️" : "🌙";
+
+        botao.setAttribute(
+            "aria-label",
+            escuro ? "Ativar modo claro" : "Ativar modo escuro"
+        );
+
+        botao.setAttribute(
+            "title",
+            escuro ? "Ativar modo claro" : "Ativar modo escuro"
+        );
+    }
+}
+
+
+function alternarTema() {
+
+    const novoTema =
+        obterTema() === "escuro"
+            ? "claro"
+            : "escuro";
+
+    localStorage.setItem("tema", novoTema);
+
+    aplicarTema(novoTema);
+}
+
+
+function configurarTema() {
+
+    aplicarTema(obterTema());
+
+    const botao =
+        document.getElementById("botaoTema");
+
+    if (botao) {
+
+        botao.addEventListener(
+            "click",
+            alternarTema
+        );
+    }
+}
+
+
+// ========================================
 // INICIALIZAÇÃO
 // ========================================
 
@@ -865,6 +1407,8 @@ document.addEventListener(
     function() {
 
         obterReceitas();
+
+        configurarTema();
 
         carregarReceitas();
 

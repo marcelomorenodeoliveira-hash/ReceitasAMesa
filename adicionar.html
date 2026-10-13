@@ -18,13 +18,23 @@
         <a href="favoritos.html">Favoritos</a>
         <a href="adicionar.html" class="ativo">Adicionar Receita</a>
     </nav>
+
+    <button
+        id="botaoTema"
+        class="botao-tema"
+        type="button"
+        aria-label="Ativar modo escuro"
+        title="Ativar modo escuro"
+    >
+        🌙
+    </button>
 </header>
 
 <main>
 
     <section class="pagina-topo">
-        <span class="pequeno-titulo">NOVA RECEITA</span>
-        <h1>Adicionar receita</h1>
+        <span id="formPequenoTitulo" class="pequeno-titulo">NOVA RECEITA</span>
+        <h1 id="formTitulo">Adicionar receita</h1>
         <p>Partilha uma receita com a tua coleção.</p>
     </section>
 
@@ -42,21 +52,39 @@
                 >
             </div>
 
-            <div class="linha">
+            <div class="campo">
+                <label>Categorias *</label>
 
-                <div class="campo">
-                    <label for="categoria">Categoria *</label>
+                    <div id="categorias" class="categorias-multiplas">
 
-                    <select id="categoria" required>
-                        <option value="">Selecionar categoria</option>
-                        <option value="Massas">Massas</option>
-                        <option value="Carnes">Carnes</option>
-                        <option value="Peixes">Peixes</option>
-                        <option value="Sobremesas">Sobremesas</option>
-                        <option value="Saladas">Saladas</option>
-                        <option value="Vegetarianas">Vegetarianas</option>
-                    </select>
+                        <label class="categoria-check">
+                            <input type="checkbox" value="Massas"> Massas
+                        </label>
+
+                        <label class="categoria-check">
+                            <input type="checkbox" value="Carnes"> Carnes
+                        </label>
+
+                        <label class="categoria-check">
+                            <input type="checkbox" value="Peixes"> Peixes
+                        </label>
+
+                        <label class="categoria-check">
+                            <input type="checkbox" value="Sobremesas"> Sobremesas
+                        </label>
+
+                        <label class="categoria-check">
+                            <input type="checkbox" value="Saladas"> Saladas
+                        </label>
+
+                        <label class="categoria-check">
+                            <input type="checkbox" value="Vegetarianas"> Vegetarianas
+                        </label>
+
+                    </div>
                 </div>
+
+            <div class="linha">
 
                 <div class="campo">
                     <label for="tempo">Tempo de preparação *</label>
@@ -126,7 +154,11 @@
                     Cancelar
                 </a>
 
-                <button type="submit" class="botao">
+                <button
+                    id="formBotaoGuardar"
+                    type="submit"
+                    class="botao"
+                >
                     Guardar receita
                 </button>
             </div>
